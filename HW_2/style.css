@@ -1,0 +1,631 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  color: #e5e5e5;
+}
+
+.main-info {
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  color: #e5e5e5;
+  display: -ms-grid;
+  display: grid;
+}
+
+.main-info h1 {
+  width: 606px;
+  height: 205px;
+  margin-top: 228px;
+  margin-left: 148px;
+  font-style: normal;
+  font-family: Arial;
+  font-weight: bold;
+  size: 44px;
+  line-height: 60px;
+  color: #21243d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  row-gap: 150px;
+}
+
+.main-info .deskripsi {
+  position: absolute;
+  font-weight: 400;
+  margin-top: 373px;
+  margin-left: 148px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 23px;
+  color: #21243d;
+  max-width: 506px;
+  height: 66px;
+  border: 1px;
+  padding: none;
+  float: left;
+}
+
+.main-info img {
+  position: absolute;
+  width: 243px;
+  height: 243px;
+  margin-top: 210px;
+  margin-left: 760px;
+  -webkit-box-shadow: -5px 10px #edf7fa;
+          box-shadow: -5px 10px #edf7fa;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: center;
+      -ms-flex: center;
+          flex: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: right;
+}
+
+.container {
+  background-color: #edf7fa;
+  margin: 595px 0px 1050px 0px;
+}
+
+.container .kontak h2 {
+  position: absolute;
+  padding: 0% 31.06% 0% 0%;
+  margin-top: 603px;
+  margin-left: 146px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #136223;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .kontak ul li .telp {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  padding: 31.87% 85.68% 67.27% 12.85%;
+  margin-top: 650.42px;
+  margin-left: 148px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+}
+
+.container .kontak p {
+  position: absolute;
+  width: 180px;
+  height: 28.44px;
+  margin-top: 645px;
+  margin-left: 184.54px;
+  font-family: Arial;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #100101;
+  border: none;
+}
+
+.container .kontak ul li .mail
+img {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  margin-top: 689.86px;
+  margin-left: 148px;
+  padding: 33.8% 85.49% 65.43% 12.85%;
+}
+
+.container .kontak p {
+  position: absolute;
+  width: 180px;
+  height: 28.44px;
+  margin-top: 683.85px;
+  margin-left: 184.54px;
+  font-family: Arial;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #100101;
+  border: none;
+}
+
+.container .kontak ul li .office {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  margin-top: 726.91px;
+  margin-left: 150.27px;
+  margin: 35.62% 85.74% 63.4% 13.04%;
+}
+
+.container .kontak p {
+  position: absolute;
+  width: 180px;
+  height: 28.44px;
+  margin-top: 722.7px;
+  margin-left: 184.54px;
+  font-family: Arial;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #100101;
+  border: none;
+}
+
+.container .kontak ul li .add {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  margin-top: 764.97px;
+  margin-left: 150.65px;
+  padding: 37.48% 85.78% 61.46% 13.08%;
+}
+
+.container .kontak p {
+  position: absolute;
+  width: 180px;
+  height: 28.44px;
+  margin-top: 761.56px;
+  margin-left: 184.54px;
+  font-family: Arial;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #100101;
+  border: none;
+}
+
+.container .pendidikan {
+  grid-column-end: auto;
+}
+
+.container .pendidikan h2 {
+  position: absolute;
+  padding: 12px 578px;
+  margin-top: 607px;
+  margin-left: 578px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #136223;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+}
+
+.container .pendidikan h3 {
+  position: static;
+  width: 107px;
+  height: 17px;
+  padding: 50px 578px;
+  font-family: inherit;
+  font-style: bold;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0.015em;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+}
+
+.container .pendidikan p {
+  position: static;
+  width: 247px;
+  height: 15px;
+  padding: 73px 578px;
+  font-family: inherit;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  border: none;
+}
+
+.container .pendidikan li {
+  width: 398px;
+  height: 15px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #52575c;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .work div h2 {
+  position: fixed;
+  margin-top: 1020px;
+  margin-right: 801px;
+  margin-bottom: 999px;
+  margin-left: 146px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #136223;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .work div .satu img {
+  position: absolute;
+  width: 246px;
+  height: 180px;
+  margin-left: 146px;
+  margin-top: 1088px;
+  border-radius: 6px;
+  float: left;
+}
+
+.container .work div .satu a {
+  width: 305px;
+  height: 44px;
+  margin-top: 1077px;
+  margin-left: 410px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  float: center;
+}
+
+.container .work div .satu .tahun {
+  position: absolute;
+  width: 42px;
+  height: 60px;
+  margin-left: 420px;
+  margin-top: 1123px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 60px;
+  font-size: 18px;
+  line-height: 60px;
+  color: #ffffff;
+  background-color: black;
+  border-radius: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: center;
+}
+
+.container .work div .satu .dashboard {
+  position: absolute;
+  width: 374px;
+  height: 34px;
+  margin-left: 498px;
+  margin-top: 1137px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .work div .satu p {
+  position: absolute;
+  width: 594px;
+  height: 93px;
+  margin-left: 410px;
+  margin-top: 1188px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+  border: white;
+}
+
+.container .work div .dua img {
+  position: absolute;
+  width: 246px;
+  height: 180px;
+  margin-left: 146px;
+  margin-top: 1314px;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: purple;
+  float: left;
+}
+
+.container .work div .dua a {
+  width: 337px;
+  height: 44px;
+  margin-top: 1312px;
+  margin-left: 410px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+  position: relative;
+}
+
+.container .work div .dua .tahun {
+  position: relative;
+  width: 42px;
+  height: 60px;
+  margin-left: 420px;
+  margin-top: 1354px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 60px;
+  font-size: 18px;
+  line-height: 60px;
+  color: #ffffff;
+  background-color: black;
+}
+
+.container .work div .dua .ilustrasi {
+  position: relative;
+  width: 374px;
+  height: 34px;
+  margin-left: 498px;
+  margin-top: 1368px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+
+.container .work div .dua p {
+  position: relative;
+  width: 594px;
+  height: 93px;
+  margin-left: 410px;
+  margin-top: 1419px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+  border: white;
+}
+
+.container .work div .tiga img {
+  position: relative;
+  width: 246px;
+  height: 180px;
+  margin-left: 146px;
+  margin-top: 1560px;
+  border-radius: 6px;
+  float: left;
+}
+
+.container .work div .tiga a {
+  width: 365px;
+  height: 44px;
+  margin-top: 1560px;
+  margin-left: 410px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+  position: relative;
+}
+
+.container .work div .tiga .tahun {
+  position: relative;
+  width: 42px;
+  height: 60px;
+  margin-left: 420px;
+  margin-top: 1559px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 60px;
+  font-size: 18px;
+  line-height: 60px;
+  color: #ffffff;
+  background-color: black;
+}
+
+.container .work div .tiga .typo {
+  position: relative;
+  width: 374px;
+  height: 34px;
+  margin-left: 498px;
+  margin-top: 1613px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+
+.container .work div .tiga p {
+  position: relative;
+  width: 594px;
+  height: 93px;
+  margin-left: 410px;
+  margin-top: 1679px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+  border: white;
+}
+
+.container footer {
+  position: absolute;
+  height: 200px;
+  margin-top: -200px;
+  background: #ffffff;
+}
+
+.container .fb {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.container .ig {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.container .tw {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.container .in {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.container p {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  margin-left: 40.28px;
+  margin-right: 40.45;
+  margin-top: calc(50%-21px/2+26.5px);
+  padding: 107px 54px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #21243d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+/*# sourceMappingURL=style.css.map */
